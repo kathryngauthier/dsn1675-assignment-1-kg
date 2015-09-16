@@ -111,9 +111,9 @@ p{
 	padding-bottom: 0.5rem;
 }
 
-button{
+.btn{
 	display: inline-block;
-	padding: 0.7rem;
+	padding: 0.7rem 0.75rem;
 	background-color: black;
 	border: none;
 	color: #fff;
@@ -123,8 +123,8 @@ button{
 	width: 100%;
 }
 
-.button a:hover {
-  background-color: #fff;
+.btn:hover{
+	background-color: gray;
 }
 
 figure{
