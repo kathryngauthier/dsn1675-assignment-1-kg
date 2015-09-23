@@ -63,25 +63,29 @@ h1 {
 }
 
 .banner{
-	position: relative;
+
 	text-align: center;
 	max-height: 75vh;
-	overflow: hidden;
+
 }
 
 .banner img{
-	width: 100%;
+	width: 150%;
 	font-size: 1.5rem;
 }
 
 .banner-content{
-	color: #fff;
-	position: absolute;
-	bottom: 0;
+	position: relative;
+	top: -13rem;
+	padding: 10px;
+	color: white;
+	text-align: center;
 	width: 100%;
-	background-color: rgba(0,0,0,0.5);
-	padding-left: 0.3px;
-	padding-right: 0.3px;
+	text-shadow: 4px 4px 10px black;
+}
+
+.banner-content h2{
+	color: white;
 }
 
 h2{
@@ -110,18 +114,29 @@ p{
 
 .btn{
 	display: inline-block;
-	padding: 0.7rem 0.75rem;
 	background-color: black;
-	border: none;
-	color: #fff;
-	font-size: 1rem;
-	text-decoration: none;
+	border-radius: 0.25em;
+	padding: 1em;
+	margin: 1em;
+	color: white;
 	text-align: center;
-	width: 100%;
+	text-decoration: none;
+
 }
 
 .btn:hover{
 	background-color: gray;
+}
+
+.now-playing{
+	width: 111.6%;
+	text-align: center;
+	padding: .5em;
+	margin-bottom: -.80em;
+	margin-left: -6%;
+	color: #fff;
+	background-color: black;
+	margin-top: 2em;
 }
 
 figure{
@@ -133,15 +148,31 @@ figcaption{
 	position: absolute;
 	bottom: 0;
 	padding: 1em;
-	background-color: rgba(0,0,0,0.5);
+	text-shadow: 1px 2px 1px black;
 	color: #fff;
 	width: 100%;
 	text-align: center;
 	font-size: 20px;
 }
 
+.now-playing-2{
+	  position: relative;
+    top: -11rem;
+    color: white;
+    text-align: center;
+    margin-bottom: -7em;
+    width: 100%;
+    text-shadow: 1px 2px 1px black;
+
+}
+
+.figcaption-2{
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+}
+
 .info{
-	background-color: #b808ff;
 	padding-top: 20px;
 	font-size: 18px;
 	line-height: 2rem;
