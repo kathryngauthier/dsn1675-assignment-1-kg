@@ -156,14 +156,13 @@ figcaption{
 }
 
 .now-playing-2{
-	  position: relative;
-    top: -11rem;
-    color: white;
-    text-align: center;
-    margin-bottom: -7em;
-    width: 100%;
-    text-shadow: 1px 2px 1px black;
-
+	position: relative;
+ 	top: -11rem;
+ 	color: white;
+ 	text-align: center;
+ 	margin-bottom: -7em;
+ 	width: 100%;
+ 	text-shadow: 1px 2px 1px black;
 }
 
 .figcaption-2{
@@ -181,6 +180,7 @@ figcaption{
 }
 .bottom-links li{
 	text-decoration: none;
+	list-style: none;
 }
 
 footer{
