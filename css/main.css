@@ -63,9 +63,8 @@ h1 {
 }
 
 .banner{
-
 	text-align: center;
-	max-height: 75vh;
+	position: relative;
 
 }
 
@@ -75,8 +74,8 @@ h1 {
 }
 
 .banner-content{
-	position: relative;
-	top: -13rem;
+	position: absolute;
+	bottom: 2em;
 	padding: 10px;
 	color: white;
 	text-align: center;
@@ -112,12 +111,16 @@ p{
 	padding-bottom: 0.5rem;
 }
 
+.tickets{
+	text-align: center;
+}
+
 .btn{
 	display: inline-block;
 	background-color: black;
 	border-radius: 0.25em;
-	padding: 1em;
-	margin: 1em;
+	padding: .5em;
+	margin: .5em;
 	color: white;
 	text-align: center;
 	text-decoration: none;
@@ -129,11 +132,9 @@ p{
 }
 
 .now-playing{
-	width: 111.6%;
+	width: 100%;
 	text-align: center;
 	padding: .5em;
-	margin-bottom: -.80em;
-	margin-left: -6%;
 	color: #fff;
 	background-color: black;
 	margin-top: 2em;
@@ -161,11 +162,8 @@ figcaption{
 }
 
 .now-playing-2{
-	position: relative;
- 	top: -11rem;
  	color: white;
  	text-align: center;
- 	margin-bottom: -7em;
  	width: 100%;
  	text-shadow: 1px 2px 1px black;
 }
@@ -207,9 +205,24 @@ footer{
 		display: inline-block;
 	}
 
+	.nav a{
+		border-top: none;
+	}
+
+.nav a:hover {
+  background-color: #b808ff;
+  width: 100%;
+  margin: 0;
+}
+
 }
 
 @media only screen and (min-width: 30em){
+
+   html{
+   	font-size: 110%;
+    line-height: 1.4;
+  }
 
 	.logo{
 		display: inline-block;
@@ -234,27 +247,70 @@ footer{
 
 	.title {
 		display: block;
-		margin: 1em 0;
+		margin: .5em 0;
 	}
-
 
 	.logo {
 		display: block;
 		margin: 0 auto;
+		padding: 10px;
 	}
 
-	.nav {
-		text-align: left;
+	.nav{
+		text-align: center;
 	}
 
 	.nav li{
-		display: block;
+		display: inline-block;
 	}
+
+	.nav a{
+		border-top: none;
+	}
+
+.nav a:hover {
+  background-color: #b808ff;
+  width: 100%;
+  margin: 0;
+}
 
 
 .seven-wonders{
+	font-size: 110%;
+  line-height: 1.4;
 	width: 50%;
 	float: left;
+	padding: .7%;
 }
+
+}
+
+@media only screen and (min-width: 156em){
+
+	.logo{
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 1em;
+	}
+
+	.title{
+		margin: 0;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.seven-wonders{
+		float: left;
+		width: 30%
+	}
+
+	.this-week{
+		width: 30%;
+		float: left;
+	}
+
+	.banner img{
+		max-width: 100%;
+	}
 
 }
